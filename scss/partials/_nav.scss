@@ -1,0 +1,33 @@
+nav {
+  background: #202f53;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+
+  #brand h1 {
+    font-size: 1.8rem;
+    padding: 0.8rem 2rem;
+  }
+
+  #main-nav ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      padding: 1.15rem 1.5rem;
+
+      a {
+        display: block;
+        font-weight: 500;
+        font-size: 1rem;
+        border-bottom: 3px solid transparent;
+        padding: 0.2rem 0;
+
+        &:hover {
+          border-bottom: 3px solid white;
+          transition: all 1s ease-in;
+        }
+      }
+    }
+  }
+}
