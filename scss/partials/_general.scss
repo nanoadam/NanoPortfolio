@@ -19,3 +19,20 @@
   margin: 0 auto;
   max-width: 1900px;
 }
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+$primary-color: #202f53;
+
+footer {
+  background: $primary-color;
+
+  .flex {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+}
